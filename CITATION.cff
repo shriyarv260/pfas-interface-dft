@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Cite this workflow separately from the underlying research papers. No PFAS predictions are validated in version 0.1.0."
+title: "PFAS Interface DFT: First-Principles Modeling of PFAS Defluorination on Catalytic Interfaces"
+authors:
+  - name: "shriya_v260"
+version: "0.1.0"
+date-released: "2026-09-14"
+license: MIT
+type: software
+keywords:
+  - PFAS
+  - density functional theory
+  - catalysis
+  - nudged elastic band
+abstract: "ASE and Quantum ESPRESSO workflow with source-traceable reference records and explicit validation boundaries."
+repository-code: "https://github.com/shriyarv260/pfas-interface-dft"

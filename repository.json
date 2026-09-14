@@ -1,0 +1,26 @@
+{
+  "name": "pfas-interface-dft",
+  "owner": "shriyarv260",
+  "owner_kind": "Verified connected GitHub account",
+  "description": "First-principles PFAS defluorination workflows at catalytic interfaces: ASE/QE relaxation, CI-NEB, reaction-energy analysis, and source-traceable benchmarks.",
+  "project_period": {
+    "start": "2026-05",
+    "end": "2026-08",
+    "provenance": "User-provided project period; not reconstructed execution history"
+  },
+  "created": "2026-09-14",
+  "visibility": "public",
+  "scientific_validation": "not_validated",
+  "topics": [
+    "pfas",
+    "dft",
+    "catalysis",
+    "neb",
+    "quantum-espresso",
+    "ase",
+    "defluorination",
+    "computational-chemistry"
+  ],
+  "owner_display_name": "shriya_v260",
+  "url": "https://github.com/shriyarv260/pfas-interface-dft"
+}
