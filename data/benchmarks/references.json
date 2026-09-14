@@ -1,0 +1,36 @@
+[
+  {
+    "id": "raghavan_2025_solvated_radical_barrier",
+    "quantity": "barrier_ev",
+    "value_ev": 0.96,
+    "reported_sd_ev": 0.093,
+    "tolerance_ev": 0.1,
+    "source_id": "raghavan2025",
+    "condition_id": "PFOA-radical_10water_no-surface_ensemble-weighted_NEB",
+    "independence_group": "raghavan2025_solvated_radical",
+    "locator": "SI Section A2; PDF page 3, printed page 2",
+    "notes": "Tolerance is a proposed repository policy, not the reported standard deviation. Reproduce ensemble procedure; no exact coordinates supplied here."
+  },
+  {
+    "id": "raghavan_2025_barrier_change_bias",
+    "quantity": "barrier_change_ev",
+    "value_ev": -0.34,
+    "tolerance_ev": 0.1,
+    "source_id": "raghavan2025",
+    "condition_id": "PFOA-radical_Ti4O7-112_bias-minus-no-bias_3.08V-SHE",
+    "independence_group": "raghavan2025_surface_bias_pair",
+    "locator": "Publisher/ACS Figshare abstract",
+    "notes": "Difference of activation barriers. Not an absolute barrier and not a single fixed-charge run."
+  },
+  {
+    "id": "raghavan_2025_reaction_energy_change_bias",
+    "quantity": "reaction_energy_change_ev",
+    "value_ev": -1.05,
+    "tolerance_ev": 0.1,
+    "source_id": "raghavan2025",
+    "condition_id": "PFOA-radical_Ti4O7-112_bias-minus-no-bias_3.08V-SHE",
+    "independence_group": "raghavan2025_surface_bias_pair",
+    "locator": "Publisher/ACS Figshare abstract",
+    "notes": "Difference of reaction energies; correlated with barrier-change reference."
+  }
+]
