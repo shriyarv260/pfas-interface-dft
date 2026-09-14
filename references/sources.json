@@ -1,0 +1,66 @@
+[
+  {
+    "id": "raghavan2025",
+    "title": "Elucidating the Impact of the Electrocatalyst Surface and Applied Potential on the Decarboxylation of the PFOA Radical on the Ti4O7 [112] Facet Using DFT Simulations",
+    "authors": [
+      "Srishyam Raghavan",
+      "Brian P. Chaplin",
+      "Shafigh Mehraeen"
+    ],
+    "year": 2025,
+    "doi": "10.1021/acs.jpcc.5c00542",
+    "url": "https://doi.org/10.1021/acs.jpcc.5c00542",
+    "supplement_url": "https://doi.org/10.1021/acs.jpcc.5c00542.s001",
+    "figshare_article_id": 29117951,
+    "file": "jp5c00542_si_001.pdf",
+    "download_url": "https://ndownloader.figshare.com/files/54700931",
+    "sha256": "fd2959714c20e2cddec46daa585100eb4fa1597a7224b6db69ed3cea3ec941d8",
+    "license": "CC BY-NC 4.0",
+    "verified": "Downloaded SI; visually checked PDF pages 3 and 6; abstract checked on publisher repository",
+    "accessed": "2026-09-14"
+  },
+  {
+    "id": "sharkas2025",
+    "title": "Defluorination Mechanisms and Real-Time Dynamics of Per- and Polyfluoroalkyl Substances on Electrified Surfaces",
+    "authors": [
+      "Kamal Sharkas",
+      "Bryan M. Wong"
+    ],
+    "year": 2025,
+    "doi": "10.1021/acs.estlett.4c01130",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11823447/",
+    "verified": "Indexed primary article and publisher SI description; no source code downloaded",
+    "accessed": "2026-09-14"
+  },
+  {
+    "id": "mctaggart2024",
+    "title": "The role of helicity in PFAS resistance to degradation: DFT simulation of electron capture and defluorination",
+    "authors": [
+      "Matt McTaggart",
+      "Cecile Malardier-Jugroot"
+    ],
+    "year": 2024,
+    "doi": "10.1039/D3CP04973F",
+    "url": "https://pubs.rsc.org/en/content/articlehtml/2024/cp/d3cp04973f",
+    "verified": "Primary article text and ESI availability; ESI not downloaded",
+    "accessed": "2026-09-14"
+  },
+  {
+    "id": "hydrated2022",
+    "title": "Degradation of Per- and Polyfluoroalkyl Substances with Hydrated Electrons: A New Mechanism from First-Principles Calculations",
+    "year": 2022,
+    "doi": "10.1021/acs.est.2c01469",
+    "url": "https://pubs.acs.org/doi/10.1021/acs.est.2c01469",
+    "verified": "Primary article indexed text; no numerical values transcribed",
+    "accessed": "2026-09-14"
+  },
+  {
+    "id": "pfos2026",
+    "title": "Photo-electrochemical reduction of PFAS in complex water matrices",
+    "year": 2026,
+    "doi": "10.1038/s41467-026-71263-9",
+    "url": "https://www.nature.com/articles/s41467-026-71263-9",
+    "verified": "Indexed primary article methods and data-availability statements; Supplementary Data 1 not downloaded",
+    "accessed": "2026-09-14"
+  }
+]
