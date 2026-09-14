@@ -1,0 +1,33 @@
+{
+  "status": "not_validated",
+  "target_fraction": 0.95,
+  "n_reference": 3,
+  "n_independence_groups": 2,
+  "n_eligible_predictions": 0,
+  "n_passed": 0,
+  "fraction_within_tolerance": 0.0,
+  "mae_ev": null,
+  "rmse_ev": null,
+  "wilson_95_interval_descriptive_only": [
+    5.551115123125783e-17,
+    0.5614970317550454
+  ],
+  "checks": [
+    {
+      "id": "raghavan_2025_solvated_radical_barrier",
+      "passed": false,
+      "reason": "missing_prediction"
+    },
+    {
+      "id": "raghavan_2025_barrier_change_bias",
+      "passed": false,
+      "reason": "missing_prediction"
+    },
+    {
+      "id": "raghavan_2025_reaction_energy_change_bias",
+      "passed": false,
+      "reason": "missing_prediction"
+    }
+  ],
+  "limitations": "Condition matching and independence require scientific review. A hash is a provenance pointer, not proof. Correlated cases invalidate binomial inference. This metric is numerical reproduction, not degradation efficiency or general DFT accuracy."
+}
