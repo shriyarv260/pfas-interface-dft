@@ -1,0 +1,31 @@
+name: Software validation
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -c requirements-lock.txt -e '.[dev]'
+      - run: ruff check src tests scripts
+      - run: pytest -q
+      - run: pfas demo --output runs/ci-demo
+      - name: Empty scientific benchmark must remain unvalidated
+        shell: bash
+        run: |
+          set +e
+          pfas benchmark --references data/benchmarks/references.json --predictions data/benchmarks/predictions.json --output runs/benchmark.json
+          result=$?
+          set -e
+          test "$result" -eq 2
+      - uses: actions/upload-artifact@v4
+        with:
+          name: synthetic-example-${{ matrix.python-version }}
+          path: runs/
