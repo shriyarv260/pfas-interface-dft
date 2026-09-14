@@ -1,0 +1,7 @@
+{
+  "status": "synthetic",
+  "neb_converged": true,
+  "analytic_barrier_ev": 1.0,
+  "computed_sampled_barrier_ev": 1.0000007253533667,
+  "is_pfas_validation": false
+}

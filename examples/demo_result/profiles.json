@@ -1,0 +1,27 @@
+[
+  {
+    "run_id": "analytical_double_well",
+    "label": "Analytical double well (synthetic)",
+    "energy_kind": "analytical_potential",
+    "ensemble": "toy",
+    "composition": "dummy_coordinate",
+    "charge": "not_applicable",
+    "method_id": "double-well-v1",
+    "status": "synthetic",
+    "reaction_energy_ev": 0.0,
+    "sampled_forward_barrier_ev": 1.0000007253533667,
+    "sampled_reverse_barrier_ev": 1.0000007253533667,
+    "peak_image": 3,
+    "interior_peak": true,
+    "relative_energies_ev": [
+      0.0,
+      0.2725214979894522,
+      0.7777921379215661,
+      1.0000007253533667,
+      0.7777921379215661,
+      0.27252149798945285,
+      0.0
+    ],
+    "warning": "Sampled NEB maximum; transition-state mode verification is separate."
+  }
+]

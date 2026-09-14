@@ -1,0 +1,8 @@
+run_id,label,image,energy_ev,status,energy_kind,ensemble,composition,charge,method_id
+analytical_double_well,Analytical double well (synthetic),0,0.0,synthetic,analytical_potential,toy,dummy_coordinate,not_applicable,double-well-v1
+analytical_double_well,Analytical double well (synthetic),1,0.2725214979894522,synthetic,analytical_potential,toy,dummy_coordinate,not_applicable,double-well-v1
+analytical_double_well,Analytical double well (synthetic),2,0.7777921379215661,synthetic,analytical_potential,toy,dummy_coordinate,not_applicable,double-well-v1
+analytical_double_well,Analytical double well (synthetic),3,1.0000007253533667,synthetic,analytical_potential,toy,dummy_coordinate,not_applicable,double-well-v1
+analytical_double_well,Analytical double well (synthetic),4,0.7777921379215661,synthetic,analytical_potential,toy,dummy_coordinate,not_applicable,double-well-v1
+analytical_double_well,Analytical double well (synthetic),5,0.27252149798945285,synthetic,analytical_potential,toy,dummy_coordinate,not_applicable,double-well-v1
+analytical_double_well,Analytical double well (synthetic),6,0.0,synthetic,analytical_potential,toy,dummy_coordinate,not_applicable,double-well-v1
