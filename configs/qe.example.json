@@ -1,0 +1,49 @@
+{
+  "label": "PFOA on Cu(111): unvalidated starting protocol",
+  "ensemble": "fixed_charge",
+  "command": "pw.x",
+  "pseudo_dir": "pseudopotentials",
+  "pseudopotentials": {
+    "C": "C.UPF",
+    "H": "H.UPF",
+    "F": "F.UPF",
+    "O": "O.UPF",
+    "S": "S.UPF",
+    "Cu": "Cu.UPF",
+    "Pd": "Pd.UPF",
+    "Ti": "Ti.UPF"
+  },
+  "kpts": [
+    2,
+    2,
+    1
+  ],
+  "fmax_ev_per_angstrom": 0.03,
+  "max_steps": 500,
+  "charge_treatment": "Neutral cell baseline. Does not impose an electrode potential.",
+  "input_data": {
+    "control": {
+      "calculation": "scf",
+      "tprnfor": true,
+      "restart_mode": "from_scratch",
+      "prefix": "pfas",
+      "outdir": "./scratch"
+    },
+    "system": {
+      "ibrav": 0,
+      "ecutwfc": 60,
+      "ecutrho": 480,
+      "input_dft": "PBE",
+      "occupations": "smearing",
+      "smearing": "mv",
+      "degauss": 0.01,
+      "tot_charge": 0,
+      "nspin": 1
+    },
+    "electrons": {
+      "conv_thr": 1e-08,
+      "mixing_beta": 0.3,
+      "electron_maxstep": 200
+    }
+  }
+}

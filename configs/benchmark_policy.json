@@ -1,0 +1,5 @@
+{
+  "target_fraction": 0.95,
+  "minimum_cases": 20,
+  "definition": "At least 95% of a preregistered, complete, condition-matched reference set within each declared absolute eV tolerance; at least 20 independent cases. This is a project acceptance policy, not a literature guarantee."
+}
