@@ -1,0 +1,10 @@
+{
+  "id": "raghavan_2025_solvated_radical_barrier",
+  "quantity": "barrier_ev",
+  "condition_id": "PFOA-radical_10water_no-surface_ensemble-weighted_NEB",
+  "status": "pending",
+  "converged": false,
+  "value_ev": null,
+  "artifact_sha256": null,
+  "note": "Schema example only; do not submit until a matching calculation exists."
+}
